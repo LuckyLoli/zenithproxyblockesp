@@ -50,3 +50,10 @@ ender chest
 .blockesp list  
 .blockesp trigger <amount>  
 .blockesp ownerping on/off  
+
+# Important Notes:
+
+1. This Plugin was fully made using replits ai.  
+2. Use this PLugin at own risk. I am not responsible for any bans etc.  
+3. This Plugin will not be developed anymore. If you want to modify it you can use the code.
+
