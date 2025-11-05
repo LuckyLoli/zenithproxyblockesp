@@ -1,6 +1,12 @@
 # ZenithProxy BlockESP Plugin
 
-A plugin made for ZenithProxy to detect blocks from a specific list.
+A plugin made for ZenithProxy to detect blocks from a specific list.  
+As soon as the minimum amount of "trigger" blocks have been found it automaticly sends the cords to discord + the Information of what it found (Example:
+Possible Base Found
+X: 500 Z: -320
+5 EnderChests
+10 Chest
+7 Shulkers
 
 # Core commands:
 
