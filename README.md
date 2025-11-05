@@ -1,2 +1,1 @@
-# zenithproxyblockesp
-BlockESP Plugin for ZenithProxy
+# Zenithproxy BlockESP Plugin
