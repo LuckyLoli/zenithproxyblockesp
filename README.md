@@ -63,3 +63,4 @@ ender chest
 3. This plugin will not be developed anymore. If you want to modify it, you can use the code.  
 4. Fully works with ZenithProxy on 1.21.4  
 5. Not sure if it works with "coordobf".
+6. This is the first github page of mine, if theire is something wrong/missing please tell it to me.
