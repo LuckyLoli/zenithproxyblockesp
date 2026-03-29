@@ -1,66 +1,69 @@
-# ZenithProxy BlockESP Plugin
+# ZenithProxy BlockESP Plugin 🚀
 
-A plugin made for ZenithProxy to detect blocks from a specific list.  
-As soon as the minimum amount of "trigger" blocks have been found it automaticly sends the cords to discord + the Information of what it found 
-Example:  
-Possible Base Found  
-X: 500 Z: -320  
-5 EnderChests  
-10 Chest  
-7 Shulkers  
+A ZenithProxy plugin that scans loaded chunks for blocks from a configurable list 🔍  
+Once the minimum number of tracked blocks is detected, it automatically sends the coordinates and a summary to Discord 📩
 
-# Core commands:
+**Example alert:**
 
-.blockesp on/off - Toggles the plugin on and off  
-.blockesp add <block> - Add a block from the list  
-.blockesp remove <block> - Remove a block from the list  
-.blockesp list - List all blocks that are being tracked at the moment  
-.blockesp trigger <amount> - Set the minimum amount of blocks needed for the plugin to send the announcement in Discord  
-.blockesp ownerping on/off - Enable/disable if the manage-proxy role ID should be pinged on top  
+Possible Base Found 🏠
+X: 500 Z: -320
 
-# Item List:
+5 Ender Chests 📦
+10 Chests 📦
+7 Shulker Boxes 📦
 
-glow item frame  
-cyan shulker box  
-redstone wall torch  
-green shulker box  
-comparator  
-magenta shulker box  
-light gray shulker box  
-beacon  
-redstone wire  
-item frame  
-white shulker box  
-light blue shulker box  
-repeater  
-piston  
-gray shulker box  
-lime shulker box  
-enchanting table  
-red shulker box  
-redstone torch  
-crafting table  
-pink shulker box  
-sticky piston  
-dispenser  
-purple shulker box  
-hopper  
-blue shulker box  
-black shulker box  
-orange shulker box  
-yellow shulker box  
-shulker box  
-observer  
-barrel  
-brown shulker box  
-dropper  
-ender chest  
+---
 
-# Important Notes:
+## Commands ⚙️
 
-1. This plugin was fully made using Replit's AI.  
-2. Use this plugin at your own risk. I am not responsible for any bans, etc.  
-3. This plugin will not be developed anymore. If you want to modify it, you can use the code.  
-4. Fully works with ZenithProxy on 1.21.4  
-5. Not sure if it works with "coordobf".
-6. This is the first github page of mine, if theire is something wrong/missing please tell it to me.
+| Command | Description |
+|---|---|
+| `.blockesp on/off` | Toggle the plugin on or off 🔛 |
+| `.blockesp add <block>` | Add a block to the tracking list ➕ |
+| `.blockesp remove <block>` | Remove a block from the tracking list ➖ |
+| `.blockesp list` | Show all currently tracked blocks 📋 |
+| `.blockesp trigger <amount>` | Set the minimum block count required to trigger an alert 🎯 |
+| `.blockesp ownerping on/off` | Toggle pinging the `manage-proxy` role on alerts 🔔 |
+
+---
+
+## Tracked Blocks (Default List) 📦
+
+<details>
+<summary>Click to expand</summary>
+
+- Barrel 🛢️  
+- Beacon ✨  
+- Black / Blue / Brown / Cyan / Gray / Green / Light Blue / Light Gray / Lime / Magenta / Orange / Pink / Purple / Red / White / Yellow Shulker Box 🎁  
+- Comparator ⚖️  
+- Crafting Table 🛠️  
+- Dispenser 🎯  
+- Dropper ⬇️  
+- Enchanting Table 🔮  
+- Ender Chest 📦  
+- Glow Item Frame 🖼️  
+- Hopper 🕳️  
+- Item Frame 🖼️  
+- Observer 👁️  
+- Piston / Sticky Piston ⚙️  
+- Redstone Torch / Redstone Wall Torch / Redstone Wire 🔴  
+- Repeater 🔁  
+
+</details>
+
+---
+
+## Installation 📥
+
+1. Download the latest `.jar` from [Releases](../../releases) ⬇️  
+2. Place it in your ZenithProxy `plugins/` folder 📂  
+3. Restart ZenithProxy 🔄  
+
+---
+
+## Notes 📝
+
+- Works with ZenithProxy on **1.21.4** ✅  
+- Compatibility with `coordobf` is untested ⚠️  
+- Use at your own risk — I am not responsible for bans or other consequences 🚫  
+- This plugin is no longer actively maintained. Feel free to fork and modify it 🔧
